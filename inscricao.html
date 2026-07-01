@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inscrição no próximo evento — Vida Plena</title>
+  <meta name="description" content="Inscreva-se no próximo evento da Vida Plena: o Arraiá solidário. Preencha o formulário e garanta sua vaga." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --azul: #4aa8d8; --azul-escuro: #2c7da0; --verde: #8fd5a6;
+      --verde-claro: #e7f6ec; --azul-claro: #e8f4fb; --branco: #ffffff;
+      --texto: #2e3d49; --texto-suave: #5a6b78; --raio: 20px;
+      --sombra: 0 10px 30px rgba(44, 125, 160, 0.12);
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Nunito', sans-serif; color: var(--texto);
+      background: linear-gradient(160deg, var(--azul-claro), var(--verde-claro));
+      min-height: 100vh; padding: 28px 18px;
+    }
+    .topo { max-width: 720px; margin: 0 auto 22px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    .marca { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.4rem; color: var(--azul-escuro); }
+    .marca .folha { color: #2f8c52; }
+    .voltar { font-family: 'Poppins', sans-serif; font-weight: 600; text-decoration: none; color: var(--azul-escuro); background: var(--branco); padding: 9px 16px; border-radius: 999px; box-shadow: var(--sombra); font-size: .95rem; }
+    .voltar:hover { background: #f3fafd; }
+    .card { max-width: 720px; margin: 0 auto; background: var(--branco); border-radius: var(--raio); box-shadow: var(--sombra); padding: 30px 26px; text-align: center; }
+    h1 { font-family: 'Poppins', sans-serif; font-size: clamp(1.6rem, 4vw, 2.2rem); color: var(--azul-escuro); margin-bottom: 10px; }
+    .sub { color: var(--texto-suave); font-size: 1.08rem; max-width: 560px; margin: 0 auto 22px; }
+    .airtable-embed { border-radius: 14px; }
+  </style>
+</head>
+<body>
+  <div class="topo">
+    <div class="marca">Vida <span class="folha">Plena</span> 🌱</div>
+    <a class="voltar" href="index.html">← Voltar ao site</a>
+  </div>
+  <div class="card">
+    <h1>Inscrição no próximo evento 🎉</h1>
+    <p class="sub">Garanta sua vaga no <strong>Arraiá da Vida Plena</strong>! Preencha os dados abaixo e a gente te espera na festa.</p>
+    <iframe class="airtable-embed" src="https://airtable.com/embed/app1ht8Bja15hY8tH/pagsThwCM9VEFUde7/form" frameborder="0" onmousewheel="" width="100%" height="620" style="background: transparent; border: 1px solid #cfe6f3;"></iframe>
+  </div>
+</body>
+</html>
